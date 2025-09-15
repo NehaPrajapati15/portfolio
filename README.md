@@ -92,9 +92,10 @@ Designed and developed a Morse code training system that displays random English
 📱 **Phone:** +91-9321791761  
 📧 **Email:** work.nehaprajapati07@gmail.com  
 🔗 **LinkedIn:** [neha-prajapati10](https://www.linkedin.com/in/neha-prajapati10/)  
-💻 **GitHub:** [Neha0700](https://github.com/Neha0700)  
+💻 **GitHub:** [NehaPrajapati15](https://github.com/NehaPrajapati15)  
 
 ---
 
 ✨ Feel free to explore my portfolio to learn more about my projects and skills. If you're interested in collaborating or have any questions, don’t hesitate to reach out!
+
 
