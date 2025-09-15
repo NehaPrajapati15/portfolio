@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neha Prajapati — Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Neha Prajapati — BE CSE (Data Science) student. Projects: voice command recognition, phishing detection, online voting system, morse trainer." />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons (Font Awesome free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous"/>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="logo">
+        <div class="mark">NP</div>
+        <div class="brand">
+          <h1>Neha Prajapati</h1>
+          <div class="sub">BE CSE (Data Science) • ML & Data Analysis</div>
+        </div>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#internship">Internship</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certs</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="container" id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left card" data-fade>
+        <div class="hero-top">
+          <div>
+            <h2>Neha Prajapati</h2>
+            <p class="lead">Data Science student & ML practitioner building practical machine learning solutions — voice recognition, phishing detection, secure voting systems.</p>
+          </div>
+        </div>
+
+        <ul class="quick-facts">
+          <li><strong>Location:</strong> Navi Mumbai, India</li>
+          <li><strong>Education:</strong> BE CSE (Data Science) — LTCOE (2022–2026)</li>
+          <li><strong>CGPA:</strong> 7.8</li>
+        </ul>
+
+        <div class="cta">
+          <a class="btn primary" href="Resume.pdf" download><i class="fa fa-download"></i> Download Resume</a>
+          <button class="btn ghost" id="viewProjectsBtn"><i class="fa fa-briefcase"></i> View Projects</button>
+        </div>
+
+        <div class="socials">
+          <a href="https://linkedin.com/in/neha-prajapati10" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/NehaPrajapati15" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+          <a href="mailto:work.nehaprajapati07@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <aside class="profile-card card" data-fade>
+        <div class="avatar" id="avatar">
+          <!-- Replace with: <img src="assets/profile.jpg" alt="Neha Prajapati"> -->
+          <img src="profile.jpg" alt="Neha Prajapati" onerror="this.style.display='none'; this.parentElement.classList.add('initials')">
+          <div class="initials">NP</div>
+        </div>
+
+        <div class="profile-meta">
+          <h3>Neha Prajapati</h3>
+          <p class="muted">BE CSE (Data Science) • ML & Data Analysis</p>
+        </div>
+
+        <div class="profile-actions">
+          <a class="btn primary" href="https://github.com/NehaPrajapati15" target="_blank"><i class="fa fa-code"></i> GitHub</a>
+          <a class="btn ghost" href="https://linkedin.com/in/neha-prajapati10" target="_blank"><i class="fa fa-user"></i> LinkedIn</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" data-fade>
+      <h3>About</h3>
+      <div class="grid-2">
+        <div>
+          <p class="muted">I am <strong>Neha Prajapati</strong>, currently pursuing a BE in Computer Science Engineering (Data Science) at Lokmanya Tilak College of Engineering, Navi Mumbai (2022–2026). I focus on building practical ML systems — from data preprocessing and exploratory analysis to model evaluation and deployment. I enjoy combining data-driven thinking with software engineering practices to create impactful solutions.</p>
+
+          <ul class="about-list">
+            <li><strong>Education:</strong> BE in Computer Science Engineering — Data Science, LTCOE (2022–2026), CGPA 7.8</li>
+            <li><strong>Schooling:</strong> HSC — SV Joshi Jr. College (2022), SSC — SVB’s Sankara Vidyalaya High School (2020)</li>
+            <li><strong>Soft Skills:</strong> Leadership, Time Management, Communication, Teamwork, Problem-Solving</li>
+          </ul>
+        </div>
+
+        <aside class="card">
+          <h4>Quick Facts</h4>
+          <p class="muted"><strong>Internship:</strong> AIML Intern — Sparks To Ideas (Remote), Feb 2025 – Mar 2025</p>
+          <p class="muted"><strong>Availability:</strong> Open for internships & student collaborations</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" data-fade>
+      <h3>Skills</h3>
+      <div class="card skills-card">
+        <div class="skills-columns">
+          <div>
+            <h4>Languages & Libraries</h4>
+            <div class="skill"><span>Python</span><div class="bar"><i style="width:90%"></i></div></div>
+            <div class="skill"><span>SQL</span><div class="bar"><i style="width:75%"></i></div></div>
+            <div class="skill"><span>Pandas / NumPy</span><div class="bar"><i style="width:88%"></i></div></div>
+            <div class="skill"><span>Scikit-learn</span><div class="bar"><i style="width:80%"></i></div></div>
+          </div>
+          <div>
+            <h4>Tools & Platforms</h4>
+            <div class="skill"><span>Power BI</span><div class="bar"><i style="width:70%"></i></div></div>
+            <div class="skill"><span>Tableau</span><div class="bar"><i style="width:65%"></i></div></div>
+            <div class="skill"><span>Excel</span><div class="bar"><i style="width:78%"></i></div></div>
+            <div class="skill"><span>AWS (EC2 basics)</span><div class="bar"><i style="width:40%"></i></div></div>
+          </div>
+        </div>
+
+        <div class="ml-competencies">
+          <h4>Machine Learning Competencies</h4>
+          <p class="muted">Data Preprocessing • EDA • Feature Engineering • Regression • Classification • Model Evaluation • Supervised & Unsupervised Learning</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIP -->
+    <section id="internship" class="section" data-fade>
+      <h3>Internship</h3>
+      <div class="card">
+        <h4>Sparks to Ideas — AIML Intern (Remote)</h4>
+        <div class="muted">Feb 2025 – Mar 2025</div>
+        <p class="muted">Built and evaluated ML models with real-world datasets. Used Pandas, Matplotlib, Seaborn for visualization and worked on end-to-end ML pipeline tasks — preprocessing, modeling and evaluation.</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" data-fade>
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h4>Realtime Voice Command Recognition System</h4>
+          <p class="muted">(Jan 2025 – Present) Real-time ML system to process and classify spoken commands using signal preprocessing, feature extraction and classification models.</p>
+          <div class="tags"><span>Python</span><span>Signal</span><span>Real-time</span></div>
+        </article>
+
+        <article class="project-card">
+          <h4>Detecting Phishing Websites Using Machine Learning</h4>
+          <p class="muted">(Aug 2024 – Nov 2024) ML model analyzing URL structure and content features to detect phishing websites and improve identification accuracy.</p>
+          <div class="tags"><span>ML</span><span>Security</span><span>Feature Eng.</span></div>
+        </article>
+
+        <article class="project-card">
+          <h4>Online Voting System</h4>
+          <p class="muted">(Jan 2024 – May 2024) Secure Python-based voting platform with unique authentication, encrypted vote storage and real-time results.</p>
+          <div class="tags"><span>Python</span><span>Security</span><span>Web</span></div>
+        </article>
+
+        <article class="project-card">
+          <h4>Morse Code Trainer</h4>
+          <p class="muted">(Aug 2023 – Nov 2023) Handheld trainer device that displays random words for Morse code translation with real-time feedback.</p>
+          <div class="tags"><span>Embedded</span><span>UX</span><span>Education</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section" data-fade>
+      <h3>Certifications</h3>
+      <div class="card">
+        <ul>
+          <li>Infosys — Learning Microsoft Power BI</li>
+          <li>Udemy — Data Analysis (SQL, Tableau, Power BI, Excel)</li>
+          <li>Talent Battle — Python Programming</li>
+          <li>Deloitte — Data Analytics Job Simulation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section" data-fade>
+      <h3>Achievements & Extracurriculars</h3>
+      <div class="card">
+        <p class="muted">Participant — Code Unnati Innovation Marathon 0.2 (National-level hackathon, Ahmedabad).</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" data-fade>
+      <h3>Contact</h3>
+      <div class="contact-grid">
+        <div>
+          <form id="contactForm" class="card" onsubmit="return handleContact(event)">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Your name">
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Hello Neha — I'm reaching out about ..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn primary" type="submit"><i class="fa fa-paper-plane"></i> Send message</button>
+              <div class="muted">Or email directly: <a href="mailto:work.nehaprajapati07@gmail.com">work.nehaprajapati07@gmail.com</a></div>
+            </div>
+          </form>
+        </div>
+
+        <aside class="card contact-info">
+          <h4>Contact Info</h4>
+          <p class="muted"><strong>Email:</strong> work.nehaprajapati07@gmail.com</p>
+          <p class="muted"><strong>Phone:</strong> +91-9321791761</p>
+          <p class="muted"><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/neha-prajapati10" target="_blank">linkedin.com/in/neha-prajapati10</a></p>
+          <p class="muted"><strong>GitHub:</strong> <a href="https://github.com/Neha0700" target="_blank">github.com/Neha0700</a></p>
+
+          <h5>Note</h5>
+          <p class="muted">Open to internships, part-time projects and collaboration. Reach out with role, timeline and deliverables.</p>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="muted">© <span id="year"></span> Neha Prajapati • Built with ❤️ & data-driven curiosity</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
