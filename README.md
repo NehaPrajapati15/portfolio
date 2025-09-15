@@ -1,7 +1,7 @@
 # 🌐 My Portfolio
 
 ## 👤 About Me
-I am **Neha Prajapati**, a pre-final year Computer Science and Engineering student specializing in Data Science at Lokmanya Tilak College of Engineering, Navi Mumbai. I am passionate about exploring Machine Learning, Data Analytics, and Artificial Intelligence to solve real-world problems with data-driven solutions.  
+I am **Neha Prajapati**, a final year Computer Science and Engineering student specializing in Data Science at Lokmanya Tilak College of Engineering, Navi Mumbai. I am passionate about exploring Machine Learning, Data Analytics, and Artificial Intelligence to solve real-world problems with data-driven solutions.  
 
 My journey into Data Science began with Python programming, which soon developed into a fascination for understanding data patterns, building predictive models, and creating intelligent systems. With experience in projects, internships, and certifications, I am building strong foundations in ML and data analytics while preparing for impactful opportunities in the tech industry.  
 
@@ -97,3 +97,4 @@ Designed and developed a Morse code training system that displays random English
 ---
 
 ✨ Feel free to explore my portfolio to learn more about my projects and skills. If you're interested in collaborating or have any questions, don’t hesitate to reach out!
+
